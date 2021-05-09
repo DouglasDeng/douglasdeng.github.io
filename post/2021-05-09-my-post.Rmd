@@ -1,0 +1,16 @@
+---
+title: My post
+author: ''
+date: '2021-05-09'
+slug: my-post
+categories: []
+tags: []
+description: ''
+---
+
+Hello. this is my first blog post!
+
+[Link to project 1](/project/project1/)
+[Link to google](https://www.google.com)
+
+![](/post/2021-05-09-my-post_files/Ghana.jpg)
