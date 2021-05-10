@@ -38,7 +38,7 @@ plt.scatter(x,y)
 
 ## Reticulation
 
-*We can do the same thing by isntead defining x ("x2") in R rather than python.*
+*We can do the same thing by instead defining x ("x2") in R rather than python.*
 
 ```{r}
 x2<- rnorm(100, mean=50, sd=10)
