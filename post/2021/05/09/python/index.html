@@ -7,7 +7,7 @@
     <meta name="author" content="Douglas Deng" />
     
     <link rel="shortcut icon" type="image/x-icon" href="../../../../../img/favicon.ico">
-    <title>Post 1</title>
+    <title>Python</title>
     <meta name="generator" content="Hugo 0.83.1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../../../../css/main.css" />
@@ -54,7 +54,7 @@
       <div class="container">
         <div class="blog-post">
           <h3>
-            <strong><a href="../../../../../post/2021/05/09/my-post/">Post 1</a></strong>
+            <strong><a href="../../../../../post/2021/05/09/python/">Python</a></strong>
           </h3>
         </div>
  
@@ -72,9 +72,39 @@
               
 
 
-<p>This was a memory prior to COVID, Janurary 2020. I went with a UT organization to Ghana for a one-week, medical mission.</p>
-<p><img src="../../../../../post/2021-05-09-my-post_files/Ghana.jpg" /></p>
-<p><a href="https://medical.globalbrigades.org/medical-brigades/ghana/">Link for more information</a></p>
+<p><em>This is an example of Quick plot python code in R. This particular example uses two python code chunks</em></p>
+<pre class="r"><code>library(reticulate) 
+py_install (&quot;numpy&quot;)
+py_install(&quot;matplotlib&quot;)
+py_install(&quot;pandas&quot;)
+
+library(reticulate)
+matplotlib &lt;- import(&quot;matplotlib&quot;)
+matplotlib$use(&quot;Agg&quot;, force = TRUE) </code></pre>
+<pre class="python"><code>import numpy as np
+import matplotlib.pyplot as plt
+
+x=np.random.normal(50,10,100)
+y=np.random.normal(50,10,100)
+
+plt.scatter(x,y)</code></pre>
+<p><img src="../../../../../post/2021-05-09-python_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><em>The numpy stack was used to generate random numbers and the Matplotlib stack was used to help create the scatter plot. First, the numpy function creates 100 random numbers from a normal distribution with a mean of 50 and a standard deviation of 10. These random draws were both set equal to variables x and y.“plt.scatter” created a scatterplot between variables x and y. This plot can be similarly created in ggplot.</em></p>
+<div id="reticulation" class="section level2">
+<h2>Reticulation</h2>
+<p><em>We can do the same thing by isntead defining x (“x2”) in R rather than python.</em></p>
+<pre class="r"><code>x2&lt;- rnorm(100, mean=50, sd=10)</code></pre>
+<pre class="python"><code>import numpy as np
+import matplotlib.pyplot as plt
+
+y2=np.random.normal(50,10,100)
+
+plt.scatter(r.x2,y2)</code></pre>
+<p><img src="../../../../../post/2021-05-09-python_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<em>The following code communicated x2 defined in R to be used in the python matplotlib scatter plot. This was denoted using r. to label the R-defined variable “x2”.</em></p>
+<p>This is the lecture material I referenced to produce my code. Cheers!</p>
+<p><img src="../../../../../post/2021-05-09-python_files/picture.jpg" /></p>
+</div>
 
             
         <hr>         <div class="related-posts">

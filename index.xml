@@ -8,13 +8,13 @@
     <language>en-US</language>
     <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My post</title>
+      <title>Post 1</title>
       <link>/post/2021/05/09/my-post/</link>
       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
       
       <guid>/post/2021/05/09/my-post/</guid>
-      <description>Hello. this is my first blog post!
-Link to project 1 Link to google</description>
+      <description>This was a memory prior to COVID, Janurary 2020. I went with a UT organization to Ghana for a one-week, medical mission.
+Link for more information</description>
     </item>
     
     <item>
@@ -33,6 +33,16 @@ Link to project 1 Link to google</description>
       
       <guid>/project/project2/</guid>
       <description>Dataset Introduction library(tidyverse) ## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ── ## ✓ ggplot2 3.3.3 ✓ purrr 0.3.4 ## ✓ tibble 3.0.4 ✓ dplyr 1.0.2 ## ✓ tidyr 1.1.2 ✓ stringr 1.4.0 ## ✓ readr 1.4.0 ✓ forcats 0.5.0 ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ── ## x dplyr::filter() masks stats::filter() ## x dplyr::lag() masks stats::lag() data &amp;lt;- read.csv(&amp;quot;data101.csv&amp;quot;) data &amp;lt;- data %&amp;gt;% select(-doc_iufd) %&amp;gt;% na.omit() data &amp;lt;- data %&amp;gt;% select(-uri) The dataset looked at pregnancy outcomes in delivery facilities as a part of the East Africa Preterm Birth Initiative that looks to determine opportunities for preinatal mortality prevention.</description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/post/2021/05/09/python/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021/05/09/python/</guid>
+      <description>This is an example of Quick plot python code in R. This particular example uses two python code chunks
+library(reticulate) py_install (&amp;quot;numpy&amp;quot;) py_install(&amp;quot;matplotlib&amp;quot;) py_install(&amp;quot;pandas&amp;quot;) library(reticulate) matplotlib &amp;lt;- import(&amp;quot;matplotlib&amp;quot;) matplotlib$use(&amp;quot;Agg&amp;quot;, force = TRUE)  import numpy as np import matplotlib.pyplot as plt x=np.random.normal(50,10,100) y=np.random.normal(50,10,100) plt.scatter(x,y) The numpy stack was used to generate random numbers and the Matplotlib stack was used to help create the scatter plot. First, the numpy function creates 100 random numbers from a normal distribution with a mean of 50 and a standard deviation of 10.</description>
     </item>
     
     <item>

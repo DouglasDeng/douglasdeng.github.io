@@ -1,5 +1,5 @@
 ---
-title: My post
+title: Post 1
 author: ''
 date: '2021-05-09'
 slug: my-post
@@ -8,9 +8,9 @@ tags: []
 description: ''
 ---
 
-Hello. this is my first blog post!
-
-[Link to project 1](/project/project1/)
-[Link to google](https://www.google.com)
+This was a memory prior to COVID, Janurary 2020. I went with a UT organization to Ghana for a one-week, medical mission. 
 
 ![](/post/2021-05-09-my-post_files/Ghana.jpg)
+
+
+[Link for more information](https://medical.globalbrigades.org/medical-brigades/ghana/)
